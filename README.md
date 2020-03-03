@@ -1,3 +1,22 @@
+## build app:
+
+#sudo ./build.sh
+
+or
+
+#docker build -t sample:dev .
+
+
+## run app:
+
+#sudo ./run.sh
+
+or
+
+#docker run -v ${PWD}:/app -v /app/node_modules -p 3001:3000 --rm sample:dev  
+  
+  
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
